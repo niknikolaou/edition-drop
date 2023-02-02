@@ -17,7 +17,7 @@ import { parseIneligibility } from "../utils/parseIneligibility";
 
 // Put Your Edition Drop Contract address from the dashboard here
 const myEditionDropContractAddress =
-  "0xDC8017E1E20BFF80a49B0B92F719f00170013B4F";
+  "0x42902c89bB22A0ff710C7F011e8AFCdA9925D1E0";
 
 // Put your token ID here
 const tokenId = 0;
@@ -239,7 +239,7 @@ const Home: NextPage = () => {
               {/* Amount claimed so far */}
               <div className={styles.mintCompletionArea}>
                 <div className={styles.mintAreaLeft}>
-                  <p>Total Minted</p>
+                  <h2>Total 🐺 Minted</h2>
                 </div>
                 <div className={styles.mintAreaRight}>
                   {claimedSupply ? (
@@ -317,13 +317,25 @@ const Home: NextPage = () => {
           </>
         )}
       </div>
-      {/* Powered by thirdweb */}{" "}
+      {/* Powered by thirdweb used by unchainedwolfs */}{" "}
+      <div>
+        <p>The UNCHAINED WOLFS</p>
+      <a href="https://discord.gg/wNkzRCVvuB">
       <img
-        src="/logo.png"
+        src="/discord.png"
         alt="thirdweb Logo"
-        width={135}
+        width={40}
         className={styles.buttonGapTop}
-      />
+      /></a>
+      <a href="https://theunchainedwolfs.com/">
+      <img
+        src="/www.png"
+        alt="thirdweb Logo"
+        width={40}
+        className={styles.buttonGapTop}
+      /></a>
+      
+      </div>
     </div>
   );
 };

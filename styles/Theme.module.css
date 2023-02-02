@@ -1,5 +1,5 @@
 .container {
-  margin-top: 96px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,7 +25,7 @@
   min-height: 720px;
   max-width: 95vw;
   gap: 2%;
-  border: 1px solid var(--border-color);
+  border: 3px solid var(--border-color);
   border-radius: 16px;
 }
 
@@ -49,6 +49,11 @@
 .description {
   opacity: 0.7;
   font-size: 1rem;
+  
+}
+
+.mainFont{
+  font-family: ClashDisplay-Medium;
 }
 
 .imageSide {
@@ -57,7 +62,7 @@
 }
 
 .image {
-  width: 85%;
+  width: 12%;
   border-radius: 16px;
 }
 
@@ -105,13 +110,13 @@
 }
 
 .mintAreaLeft {
-  margin-left: 5%;
-  opacity: 0.75;
+  margin-left: 10%;
+  opacity: 0.85;
 }
 
 .mintAreaRight {
-  margin-right: 5%;
-  opacity: 0.75;
+  margin-right: 20%;
+  opacity: 0.85;
 }
 
 .spacerTop {
@@ -144,6 +149,7 @@
   height: 48px;
   padding: 0 16px;
   font-size: 1rem;
+  font-family: ClashDisplay-Medium;
 }
 
 .quantityControlButton {
@@ -175,4 +181,6 @@
   .imageSide {
     width: 100%;
   }
+
+  
 }
