@@ -182,5 +182,10 @@
     width: 100%;
   }
 
+  @font-face{
+    font-family: ClashDisplay-Medium;
+    src: url(ClashDisplay-MediUm.ttf);
+  }
+
   
 }
