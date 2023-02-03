@@ -14,6 +14,7 @@ import type { NextPage } from "next";
 import { useMemo, useState } from "react";
 import styles from "../styles/Theme.module.css";
 import { parseIneligibility } from "../utils/parseIneligibility";
+import Image from 'next/image'
 
 // Put Your Edition Drop Contract address from the dashboard here
 const myEditionDropContractAddress =
@@ -230,7 +231,7 @@ const Home: NextPage = () => {
 
             <div className={styles.imageSide}>
               {/* Image Preview of NFTs */}
-              <img
+              <Image
                 className={styles.image}
                 src={contractMetadata?.image}
                 alt={`${contractMetadata?.name} preview image`}
@@ -321,14 +322,14 @@ const Home: NextPage = () => {
       <div>
         <p>The UNCHAINED WOLFS</p>
       <a href="https://discord.gg/wNkzRCVvuB">
-      <img
+      <Image
         src="/discord.png"
         alt="thirdweb Logo"
         width={40}
         className={styles.buttonGapTop}
       /></a>
       <a href="https://theunchainedwolfs.com/">
-      <img
+      <Image
         src="/www.png"
         alt="thirdweb Logo"
         width={40}

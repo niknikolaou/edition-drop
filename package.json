@@ -6,9 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export":"next export",
     "lint": "next lint",
-    "deploy": "yarn build && npx thirdweb@latest upload out"
+    "deploy": "yarn build && npx thirdweb@latest upload build"
   },
   "dependencies": {
     "@thirdweb-dev/react": "^3",
