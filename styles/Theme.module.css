@@ -49,10 +49,9 @@
 .description {
   opacity: 0.7;
   font-size: 1rem;
-  
 }
 
-.mainFont{
+.mainFont {
   font-family: ClashDisplay-Medium;
 }
 
@@ -182,10 +181,8 @@
     width: 100%;
   }
 
-  @font-face{
+  @font-face {
     font-family: ClashDisplay-Medium;
-    src: url(ClashDisplay-MediUm.ttf);
+    src: url("https://theunchainedwolfs.com/clashdisplay.ttf") format("truetype");
   }
-
-  
 }
