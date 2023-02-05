@@ -183,6 +183,7 @@
 
   @font-face {
     font-family: ClashDisplay-Medium;
-    src: url("https://theunchainedwolfs.com/clashdisplay.ttf") format("truetype");
+    src: url("../fonts/clashdisplay.ttf") format("truetype"),
+    url('../fonts/clashdisplay.ttf') format('woff'); /* Modern Browsers */
   }
 }
