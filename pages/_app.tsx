@@ -17,8 +17,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   sdkOptions={{
     gasless: {
       biconomy: {
-        apiKey: "<1675375289395>",
-        apiId: "<69eb705a-b52b-4b18-abbc-dd2d23752a24>",
+        apiKey: "IvnQF2o-8.d3b7b30f-3873-4583-9a62-e4c5d7f1868a",
+        apiId: "a5bc2481-7601-4350-a12f-42ab8a907cb7",
       }
     },
   }}

@@ -18,7 +18,7 @@ import { parseIneligibility } from "../utils/parseIneligibility";
 
 // Put Your Edition Drop Contract address from the dashboard here
 const myEditionDropContractAddress =
-  "0x42902c89bB22A0ff710C7F011e8AFCdA9925D1E0";
+  "0x9C269b1c961396A775F264EE4Daf1F6534f77231";
 
 // Put your token ID here
 const tokenId = 0;
@@ -191,7 +191,7 @@ const Home: NextPage = () => {
         activeClaimCondition.data?.currencyMetadata.value || 0
       );
       if (pricePerToken.eq(0)) {
-        return "Mint (Free)";
+        return "Mint (Free) No Gas Fees!";
       }
       return `Mint (${priceToMint})`;
     }
@@ -320,7 +320,7 @@ const Home: NextPage = () => {
       </div>
       {/* Powered by thirdweb used by unchainedwolfs */}{" "}
       <div>
-        <p>The UNCHAINED WOLFS</p>
+        <div>The UNCHAINED WOLFS</div>
       <a href="https://discord.gg/wNkzRCVvuB">
       <img
         src="/discord.png"
