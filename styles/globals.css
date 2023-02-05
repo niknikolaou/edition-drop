@@ -14,9 +14,6 @@
   /* Secondary color of your brand */
   --color-secondary: #418dff;
 
-  /* Which font you want to use */
-  --font: ClashDisplay-Medium;
-
   /* Color of the border around items */
   --border-color: #b48339;
 }
@@ -42,8 +39,3 @@ body {
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: ClashDisplay-Medium;
-  src: url("../fonts/clashdisplay.ttf") format("truetype"),
-  url('../fonts/clashdisplay.ttf') format('woff'); /* Modern Browsers */
-}

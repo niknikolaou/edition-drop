@@ -1,14 +1,18 @@
 import type { AppProps } from "next/app";
+import { K2D } from "@next/font/google"
 import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
 import "../styles/globals.css";
 import Head from "next/head";
-import ThirdwebGuideFooter from "../components/GitHubLink";
+
+const k2d = K2D({subsets:['latin'], weight:'500'});
+
 
 // This is the chainId your dApp will work on.
 const activeChainId = ChainId.Mumbai;
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
+    <main className={k2d.className}>
     <ThirdwebProvider
   sdkOptions={{
     gasless: {
@@ -32,7 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
       </Head>
       <Component {...pageProps} />
-    </ThirdwebProvider>
+    </ThirdwebProvider></main>
   );
 }
 

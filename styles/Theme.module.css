@@ -51,9 +51,6 @@
   font-size: 1rem;
 }
 
-.mainFont {
-  font-family: ClashDisplay-Medium;
-}
 
 .imageSide {
   width: 45%;
@@ -181,9 +178,5 @@
     width: 100%;
   }
 
-  @font-face {
-    font-family: ClashDisplay-Medium;
-    src: url("../fonts/clashdisplay.ttf") format("truetype"),
-    url('../fonts/clashdisplay.ttf') format('woff'); /* Modern Browsers */
-  }
+
 }
