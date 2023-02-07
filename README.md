@@ -1,49 +1,38 @@
-# Customizable Edition Drop Minting Page
+# Next.js Mint Page (ERC1155) for Diamond Hand Game 
 
-In this template, we build a page where users can claim NFTs from the [Edition Drop](https://portal.thirdweb.com/pre-built-contracts/edition-drop) contract.
+In this Mint page,It displays information about the NFT collection such as its title and description, an image preview of the NFTs, the amount claimed so far, and the claim conditions. The page also allows users to claim NFTs if the conditions are met in a gasless method by Biconomy.
 
-## Tools
+## Features
 
-- [**Edition Drop**](https://portal.thirdweb.com/pre-built-contracts/edition-drop): Create a collection of ERC-1155 NFTs and release them to users under [claim conditions](https://portal.thirdweb.com/pre-built-contracts/edition-drop#minting--claiming-nfts).
-- [**React SDK**](https://docs.thirdweb.com/react): to enable users to connect their wallets with the [useMetamask](https://portal.thirdweb.com/react/react.usemetamask) hook, and access hooks such as [useNFTDrop](https://portal.thirdweb.com/react/react.usenftdrop) to interact with the NFT drop contract.
-- [**TypeScript SDK**](https://docs.thirdweb.com/typescript): to view the claimed supply, total supply, and mint NFTs from the drop.
+- Display information about the NFT collection such as its title and description, an image preview of the NFTs.
+- Display the amount claimed so far.
+- Display the claim conditions.
+- Allow users to claim NFTs if the conditions are met.
 
-## Using This Repo
+## Requirements
+- A web3 provider.
 
-To create your own version of this template, you can use the following steps:
-
-Run this command from the terminal to clone this project:
-
-```bash
-npx thirdweb create --template edition-drop
+## Getting Started
+To run the app, you need to install the dependencies by running the following command in the root directory of the app:
 ```
+npm install
+```
+Then, run the following command to start the development server:
+```
+npm run dev
+```
+The app should now be running on http://localhost:3000.
 
-### 1. Deploy Your Own Edition Drop on thirdweb
+## Contributing
+- If you want to contribute to this project, feel free to create a pull request or reach out to the developers.
 
-Head to the [dashboard](https://thirdweb.com/dashboard) and create your own **Edition Drop** contract.
-
-You can learn how to do that with our guide [Release an NFT drop on your own site without writing any code](https://portal.thirdweb.com/guides/release-an-nft-drop-with-no-code#create-a-drop-contract).
-
-Be sure to configure a **name**, **description**, and **image** for your NFT drop in the dashboard.
-
-### 2. Configure the styles to your branding
-
-You can fully customize the colors and style of this template by editing the values in the [`globals.css`](/styles/globals.css) file.
-
-You can configure:
-
-- The color of the background with `--background-color`
-- The color of the text with `--text-color`
-- The color of the button (is a gradient from primary to secondary color) with `--color-primary` and `--color-secondary`
-- The font with `--font`
-- The border colors with `--border-color`
-
-### 3. Plug in your Edition Drop contract address
-
-Replace the value of the `myEditionDropContractAddress` inside [`index.tsx`](/pages/index.tsx) with your Edition Drop contract address (you can find in the dashboard).
-
+## Acknowledgements
+- This app is powered by Thirdweb and used by the Unchained Wolfs.
 ---
 
-## Join our Discord!
+## Support
 
-For any questions, suggestions, join our Discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+For support or to get involved with the Unchained Wolfs community, check out:
+
+Discord: discord.gg/wNkzRCVvuB
+Website: theunchainedwolfs.com
