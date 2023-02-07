@@ -34,5 +34,5 @@ The app should now be running on http://localhost:3000.
 
 For support or to get involved with the Unchained Wolfs community, check out:
 
-Discord: discord.gg/wNkzRCVvuB
-Website: theunchainedwolfs.com
+- Discord: [The Unchained Wolfs](https://discord.gg/wNkzRCVvuB)
+- Website: [theunchainedwolfs.com](https://theunchainedwolfs.com)
