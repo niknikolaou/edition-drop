@@ -15,7 +15,6 @@ import { useMemo, useState } from "react";
 import styles from "../styles/Theme.module.css";
 import { parseIneligibility } from "../utils/parseIneligibility";
 
-
 // Put Your Edition Drop Contract address from the dashboard here
 const myEditionDropContractAddress =
   "0x9C269b1c961396A775F264EE4Daf1F6534f77231";
@@ -227,6 +226,19 @@ const Home: NextPage = () => {
               <p className={styles.description}>
                 {contractMetadata?.description}
               </p>
+              <p>
+                <a href="https://2dwolf.space" className="hoverable-link">
+                  Game
+                </a>
+                <span> | </span>
+                <a href="https://marketplace.2dwolf.space" className="hoverable-link">
+                  Marketplace
+                </a>
+                <span> | </span>
+                <a href="https://scores.2dwolf.space" className="hoverable-link">
+                  Scores
+                </a>
+              </p>
             </div>
 
             <div className={styles.imageSide}>
@@ -321,23 +333,24 @@ const Home: NextPage = () => {
       {/* Powered by thirdweb used by unchainedwolfs */}{" "}
       <div>
         <div>The UNCHAINED WOLFS</div>
-      <a href="https://discord.gg/wNkzRCVvuB">
-      <img
-        src="/discord.png"
-        alt="thirdweb Logo"
-        width={40}
-        height={40}
-        className={styles.buttonGapTop}
-      /></a>
-      <a href="https://theunchainedwolfs.com/">
-      <img
-        src="/www.png"
-        alt="thirdweb Logo"
-        width={40}
-        height={40}
-        className={styles.buttonGapTop}
-      /></a>
-      
+        <a href="https://discord.gg/wNkzRCVvuB">
+          <img
+            src="/discord.png"
+            alt="thirdweb Logo"
+            width={40}
+            height={40}
+            className={styles.buttonGapTop}
+          />
+        </a>
+        <a href="https://theunchainedwolfs.com/">
+          <img
+            src="/www.png"
+            alt="thirdweb Logo"
+            width={40}
+            height={40}
+            className={styles.buttonGapTop}
+          />
+        </a>
       </div>
     </div>
   );

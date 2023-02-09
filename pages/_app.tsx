@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="2D Wolf give you premium access to play on Wolf Mini Games"
+          content="2D Wolf giVe you premium access to play on Wolf Mini Games"
         />
         <meta
           name="keywords"
